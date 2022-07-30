@@ -1,0 +1,13 @@
+<div>
+  <ul class="ul-element">
+    <li class="li-element" *ngFor="let user of usersList">
+      <div class="cont">
+        <p>Name {{ user.name }}</p>
+        <p>Email: {{ user.email }}</p>
+        <button (click)="viewUserDetails(user)">View Details</button>
+      </div>
+      <!-- <app-user-card [parentData]="user"></app-user-card> -->
+    </li>
+  </ul>
+  <div></div>
+</div>

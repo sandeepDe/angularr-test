@@ -1,0 +1,11 @@
+.ul-element {
+  list-style-type: none;
+}
+
+.li-element {
+  margin-top: 5px;
+}
+
+.cont {
+  border: grey 1px solid;
+}

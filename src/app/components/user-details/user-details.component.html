@@ -1,0 +1,10 @@
+<p>user-details works!</p>
+
+<div class="main-cont" *ngIf="parentData">
+  <!-- <p>{{ parentData | json }}</p> -->
+  <p>Name:{{ parentData.name }}</p>
+  <p>Email: {{ parentData.email }}</p>
+  <p>Phone: {{ parentData.phone }}</p>
+  <a href="{{ parentData.website}}"> Website </a>
+  <button (click)="sendIdToTodo(parentData.id)">View Todo</button>
+</div>
